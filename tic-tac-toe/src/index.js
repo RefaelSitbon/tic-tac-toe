@@ -13,7 +13,7 @@ class Square extends React.Component {
     render() {
         return (
             <button className='square' onClick={() => { 
-                console.log('click on ' + this.props.value); 
+                console.log('click one ' + this.props.value); 
                 this.setState({value: 'X'})
                 }}>
                 {this.state.value}
